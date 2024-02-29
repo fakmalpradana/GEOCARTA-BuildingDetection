@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['building']
+
+roboflow:
+  workspace: bpnai
+  project: coco2yolo-i8ny3
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/bpnai/coco2yolo-i8ny3/dataset/3
